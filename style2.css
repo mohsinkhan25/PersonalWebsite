@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: 0;
+}
+
+div {
+    color: #CCDBDC;
+    font-size: 18px;
+}
+
+body {
+    background-color: #2E4052;
+}
+
+.landing {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: 0;
+  }
+  
+.heading,
+.sidebar,
+#theme-toggle {
+    border: 3px solid white;
+    background-color: #3F826D;
+    color: #CCDBDC;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 99;
+}
+
+.card {
+    border: 4px solid white;
+    padding: 20px;
+    width: 800px;
+    margin: 50px auto;
+    height: auto;
+    box-shadow: 0 2px 4px black;
+    background-color: #847577;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    transition: transform 1s ease;
+    color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-style: italic;
+}
+
+.card object {
+    height: 1100px;
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: bold;
+    color: #CCDBDC;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav .active {
+    border: 3px solid white;
+}
+
+.profile{
+    width: 300px; 
+    height: auto;
+    margin: 10px; 
+    border: 3px solid white;
+}
+
+.bio {
+    line-height: 30px;
+    padding: 0 30px 0 30px;
+    border: 3px solid white;
+    margin: 0 20px 0 20px;
+}
+  
+.iso {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.links{
+    list-style-type: none;
+}
+
+.links a {
+    font-size: 20px;
+    color: inherit;
+}
+
+#theme-toggle {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    width: 10%;
+    transition: transform 1s ease;
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
+}
